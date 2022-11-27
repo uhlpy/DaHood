@@ -1,0 +1,3 @@
+if not getgenv().settings.Key then game.Players.LocalPlayer:Kick("No Key join discord for support @ discord.gg/falseban") end
+_G.wl_key = getgenv().settings.Key
+loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/fake-char/main/gg/falseban.lua"))()
